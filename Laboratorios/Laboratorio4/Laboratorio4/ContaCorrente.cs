@@ -10,7 +10,8 @@ namespace Laboratorio4
         private decimal saldo;
         private int contador = 0;
         private decimal acumulador = 0;
-        private decimal saldomedio;
+        public decimal saldo_medio;
+        public string dataehora;
 
         
 
@@ -19,14 +20,14 @@ namespace Laboratorio4
         {
             saldo = saldo + val;
             contador = contador + 1;
-            acumulador = acumulador + acumulador;
+            acumulador = acumulador + val;
 
         }
         public void Sacar(decimal val)
         {
             saldo = saldo - val;
             contador = contador + 1;
-            acumulador = acumulador + acumulador;
+            acumulador = acumulador + val;
         }
 
         public decimal Saldo
@@ -42,7 +43,7 @@ namespace Laboratorio4
 
         public void SaldoMedio()
         {
-            saldomedio = acumulador / contador;
+            saldo_medio = acumulador / contador;
         }
 
 
@@ -58,6 +59,14 @@ namespace Laboratorio4
    
         }
 
+        public string Dataehora()
+        {
+            DateTime dt = new DateTime();
+            string datadodia = dt.ToString();
+            return (datadodia);
+        }
+
+      
   
  
 
