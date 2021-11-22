@@ -1,0 +1,14 @@
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\bin\Debug\netcoreapp3.1\Laboratorio5.exe
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\bin\Debug\netcoreapp3.1\Laboratorio5.deps.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\bin\Debug\netcoreapp3.1\Laboratorio5.runtimeconfig.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\bin\Debug\netcoreapp3.1\Laboratorio5.runtimeconfig.dev.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\bin\Debug\netcoreapp3.1\Laboratorio5.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\bin\Debug\netcoreapp3.1\Laboratorio5.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.csproj.AssemblyReference.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.AssemblyInfo.cs
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio5\Laboratorio5\obj\Debug\netcoreapp3.1\Laboratorio5.genruntimeconfig.cache

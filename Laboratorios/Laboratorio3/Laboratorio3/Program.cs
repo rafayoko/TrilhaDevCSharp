@@ -71,16 +71,16 @@ namespace Laboratorio3
 
             Console.WriteLine();
 
-            string[] dt2 = new string[2];
+            DateTime[] dt2 = new DateTime[2];
             int iDate2 = -1;
-            dt2[0] = "01/05/2002";
-            dt2[1] = "01/06/2002";
+            dt2[0] = new DateTime(2002, 5, 1);
+            dt2[1] = new DateTime(2002, 6, 1);
 
 
-            foreach (string obj in dt2)
+            foreach (DateTime obj in dt2)
             {
                 iDate2++;
-                Console.WriteLine("Indice = " + iDate2 + " & Data = " + dt2[iDate2]);
+                Console.WriteLine("Indice = " + iDate2 + " & Data = " + dt2[iDate2].ToShortDateString());
 
             }
 
@@ -151,12 +151,36 @@ namespace Laboratorio3
             }
             for (int v = 0; v < 5; v++)
             {
-                Console.WriteLine("Coluna " + v + 1 + ": " + vet[v]);
+                Console.WriteLine("Coluna " + (v+1)  + ": " + vet[v]);
             }
 
             Console.WriteLine();
 
 
+
+            int[][] jArray = new int[4][];
+            jArray[0] = new int[4] { 1, 2, 3, 5 };
+            jArray[1] = new int[4] { 4, 2, 3, 5 };
+            jArray[2] = new int[2] { 1, 3 };
+            jArray[3] = new int[1] { 1 };
+            jArray[4] = new int[4] { 1, 2, 3, 4 };
+
+            for (int w = 0; w >jArray.Length; w++)
+            {
+                for (int l = 0; l > jArray[w].Length; l++)
+                {
+                    Console.Write(" " + jArray[w][l] + " ");
+                }
+            }
+
+            Console.WriteLine();
+
+
+
+
+
+            // Esse aqui com os números aleatórios não está rodando.
+            /*
             int[][] jArray = new int[4][];
             jArray[0] = new int[4];
             jArray[1] = new int[4];
@@ -188,8 +212,7 @@ namespace Laboratorio3
             {
                 Console.WriteLine("Coluna " + v + 1 + ": " + vet2[v]);
             }
-
-
+            */
 
         }
 
