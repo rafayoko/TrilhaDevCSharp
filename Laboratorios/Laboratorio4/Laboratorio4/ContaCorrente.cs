@@ -64,7 +64,7 @@ namespace Laboratorio4
 
         public string Dataehora()
         {
-            DateTime dt = new DateTime();
+            DateTime dt =  DateTime.Now;
             string datadodia = dt.ToString();
             return (datadodia);
         }
