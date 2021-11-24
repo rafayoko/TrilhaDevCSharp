@@ -36,14 +36,23 @@ namespace Laboratorio6
 
                 foreach (Conta ac in list)
                 {
-                    Console.WriteLine("Dados:" + ac.Titular) ;
+                    Console.WriteLine(ac.Titular) ;
                 }
-
 
 
                 Console.WriteLine("Deseja cadastrar outra conta? (s/n)");
                 cadastro = char.Parse(Console.ReadLine());
             }
+
+            //Operações
+
+
+            Console.WriteLine("Qual o nome?");
+            string nomeconta = Console.ReadLine();
+            string s1 =  List.Find( x => x[0] == nomeconta);
+
+
+
 
 
 
@@ -51,6 +60,13 @@ namespace Laboratorio6
             /*
             2.Crie uma coleção de objetos do tipo Conta e acrescente diversos objetos dos tipos das classes
             derivadas.Quais métodos podem ser chamados sobre os elementos da coleção?*/
+            ContaPoupanca contap = new ContaPoupanca();
+
+            Conta[] Array = new Conta[5];
+            Array[0] = 
+
+
+
 
 
                 }
