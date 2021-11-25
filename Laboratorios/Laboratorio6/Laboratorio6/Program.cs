@@ -5,38 +5,45 @@ namespace Laboratorio6
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            /*  
-            1.Escreva um programa que crie vários tipos de conta e teste cada um dos métodos e propriedades
-            desenvolvidos.
+            /*  1.Escreva um programa que crie vários tipos de conta e teste cada um dos métodos e propriedades
+         desenvolvidos.   */
 
-           */
+            ContaPoupanca cp = new ContaPoupanca("", 0);
+            List<Conta> listConta = new List<Conta>();
 
             Console.WriteLine("Deseja cadastrar uma conta? (s/n)");
             char cadastro = char.Parse(Console.ReadLine());
 
             while (cadastro == 's')
             {
-               
                 Console.WriteLine("Qual o nome do Titular? ");
                 string nometitular = Console.ReadLine();
 
-                Console.WriteLine(" Qual o  depósito inicial? (s/n)");
+                Console.WriteLine("Qual o  depósito inicial? ");
                 decimal depoinicial = decimal.Parse(Console.ReadLine());
 
-                Console.WriteLine("Qual a taxa de juros?");
-                decimal taxadejurosconta = decimal.Parse(Console.ReadLine());
-                ContaPoupanca cp = new ContaPoupanca(nometitular, taxadejurosconta);
+                Console.WriteLine("Digite '1' para Conta Corrente ou '2' Conta Poupança?");
+                bool tipoDeConta = int.Parse(Console.ReadLine()) == 1 ? true : false;
 
-                DateTime datadeniver = DateTime.Now;
-                
-                List<Conta> list = new List<Conta>();
-                list.Add(new ContaPoupanca(taxadejurosconta, datadeniver, nometitular, depoinicial));
-
-                foreach (Conta ac in list)
+                if (tipoDeConta)
                 {
-                    Console.WriteLine(ac.Titular) ;
+                    listConta.Add(new ContaCorrente(nometitular, depoinicial));
+                }
+                else
+                {
+                    Console.WriteLine("Qual a taxa de juros?");
+                    decimal taxadejurosconta = decimal.Parse(Console.ReadLine());
+                    DateTime datadeniver = DateTime.Now;
+                    cp.AdicionarRendimento();
+                    listConta.Add(new ContaPoupanca(taxadejurosconta, datadeniver, nometitular, depoinicial));
+                }
+
+                foreach (Conta ac in listConta)
+                {
+                    Console.WriteLine(ac.Titular + "  " + ac.Saldo + "  " + ac.Id);
                 }
 
 
@@ -46,29 +53,99 @@ namespace Laboratorio6
 
             //Operações
 
+            Console.WriteLine("Deseja fazer alguma operação de saque ou depósito? (s/n)");
+            char operacaoSouD = char.Parse(Console.ReadLine());
 
-            Console.WriteLine("Qual o nome?");
-            string nomeconta = Console.ReadLine();
-            string s1 =  List.Find( x => x[0] == nomeconta);
+            while (operacaoSouD == 's')
+            {
 
+                {
 
+                    Console.WriteLine("Qual o nome do titular?");
+                    string nomeDoTitular = Console.ReadLine();
 
+                    Console.WriteLine("Sacar ou Depositar? (s/d)");
+                    bool saqueoudeposito = char.Parse(Console.ReadLine()) == 's' ? true : false;
+                    if (saqueoudeposito)
+                    {
+                        Console.Write("Qual o valor do saque?");
+                        decimal valsaque = decimal.Parse(Console.ReadLine());
 
+                        foreach (var item in listConta)
+                        {
+                            if (item.Id == nomeDoTitular)
+                            {
+                                item.Sacar(valsaque);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("Qual o valor do depósito?");
+                        decimal valdeposito = decimal.Parse(Console.ReadLine());
 
+                        foreach (var item in listConta)
+                        {
+                            if (item.Id == nomeDoTitular)
+                            {
+                                item.Depositar(valdeposito);
+                            }
+                        }
+                    }
 
-
-            /*
-            2.Crie uma coleção de objetos do tipo Conta e acrescente diversos objetos dos tipos das classes
-            derivadas.Quais métodos podem ser chamados sobre os elementos da coleção?*/
-            ContaPoupanca contap = new ContaPoupanca();
-
-            Conta[] Array = new Conta[5];
-            Array[0] = 
-
-
-
-
-
+                    Console.WriteLine("Deseja fazer alguma operação de saque ou depósito? (s/n)");
+                    operacaoSouD = char.Parse(Console.ReadLine());
                 }
-    }
+
+            }
+
+            foreach (Conta item in listConta)
+            {
+                Console.WriteLine("Nome do Titular :   " + item.Id + ";   Saldo da Conta:   " + item.Saldo);
+            }
+
+            Console.WriteLine("-----------------------------------------");
+
+            foreach (Conta item in listConta)
+            {
+                Console.WriteLine("Nome do Titular :   " + item.Id + " ;     Saldo da Conta: " + item.Saldo);
+            }
+
+        }
+
+
+        /*
+        2.Crie uma coleção de objetos do tipo Conta e acrescente diversos objetos dos tipos das classes
+        derivadas.Quais métodos podem ser chamados sobre os elementos da coleção?*/
+
+
+
+        Conta[] arrayConta = new Conta[3];
+
+        DateTime hoje = DateTime.Now;
+        arrayConta[0] = new ContaPoupanca(1000, hoje, "Rafa");
+        arrayConta[1] = new ContaPoupanca(1.5, hoje, "Rafa", decimal 100);
+        arrayConta[2] = new ContaCorrente("Rafa", 100);
+        arrayConta[3].sacar();
+        
+        for (int i = 0; i< 2; i++) 
+         { 
+         Console.WriteLine(arrayConta[i].id); 
+         Console.WriteLine(arrayConta[i].saldo); 
+          }
+
+
+
 }
+
+
+
+
+}
+
+
+
+
+
+
+

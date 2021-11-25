@@ -8,7 +8,9 @@ namespace Laboratorio6
 
     {
         private decimal taxaJuros;
-        private DateTime dataAniversario; 
+        private DateTime dataAniversario;
+
+      
 
         public ContaPoupanca(string t, decimal s) : base(t,s) 
         {

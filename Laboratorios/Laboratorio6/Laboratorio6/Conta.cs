@@ -9,7 +9,7 @@ namespace Laboratorio6
         private decimal saldo;
         private string titular;
        
-
+        
         public Conta(string t, decimal s)
         {
             titular = t;
