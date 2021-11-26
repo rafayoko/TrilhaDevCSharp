@@ -1,0 +1,28 @@
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.exe
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.deps.json
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.runtimeconfig.json
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.runtimeconfig.dev.json
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.dll
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.pdb
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.csproj.AssemblyReference.cache
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.AssemblyInfoInputs.cache
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.AssemblyInfo.cs
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.dll
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.pdb
+C:\Users\rafae\source\repos\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.genruntimeconfig.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.csproj.AssemblyReference.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.AssemblyInfo.cs
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.exe
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.deps.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.runtimeconfig.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.runtimeconfig.dev.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\bin\Debug\netcoreapp3.1\Laboratorio8.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio8\Laboratorio8\obj\Debug\netcoreapp3.1\Laboratorio8.genruntimeconfig.cache

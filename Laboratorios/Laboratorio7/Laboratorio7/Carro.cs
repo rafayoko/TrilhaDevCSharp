@@ -7,10 +7,24 @@ namespace Laboratorio7
     public class Carro
     {
 
-        private decimal velocidade;
-        public Velocidade()
+        private double velocidade;
+     
+        public double Velocidade
         {
-            velocidade = 0;
+            get
+            {
+                return velocidade;
+            }
+            
+        }
+        public void Acelarar(double v)
+        {
+           velocidade += v;
+        }
+        public void Diminuir(double v)
+        {
+            velocidade -= v;
+
         }
 
 

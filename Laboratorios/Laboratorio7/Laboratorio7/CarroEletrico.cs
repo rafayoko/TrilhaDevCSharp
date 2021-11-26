@@ -4,27 +4,33 @@ using System.Text;
 
 namespace Laboratorio7
 {
-    class CarroEletrico : Carro, IEstadoBinario 
+    class CarroEletrico : Carro, IEstadoBinario
     {
-        
-            private bool ligado = false;
-            public void Ligar()
+        private bool ligado;
+        private decimal velocidade;
+       
+        public CarroEletrico(decimal v)
+        {
+            velocidade = v;
+        }
+
+        public void Ligar()
+        {
+            ligado = true;
+        }
+
+        public void Desligar()
+        {
+            ligado = false;
+        }
+        public EstadoBinario Estado
+        {
+            get
             {
-                ligado = true;
-            }
-            public void Desligar()
-            {
-                ligado = false;
-            }
-            public EstadoBinario Estado
-            {
-                get
-                {
-                    if (ligado)
-                        return EstadoBinario.Ligado;
-                    else
-                        return EstadoBinario.Desligado;
-                }
+                if (velocidade > 0)
+                    return EstadoBinario.Ligado;
+                else
+                    return EstadoBinario.Desligado;
             }
         }
     }

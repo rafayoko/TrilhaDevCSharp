@@ -8,7 +8,7 @@ namespace Laboratorio7
     {
         private bool ligado = false;
         public void Ligar()
-        {
+        { 
             ligado = true;
         }
         public void Desligar()

@@ -6,7 +6,7 @@ namespace Laboratorio6
     class Program
     {
 
-        static void Main(string[] args)
+        static void Main(string[]args)
         {
             /*  1.Escreva um programa que crie vários tipos de conta e teste cada um dos métodos e propriedades
          desenvolvidos.   */
@@ -57,8 +57,7 @@ namespace Laboratorio6
             char operacaoSouD = char.Parse(Console.ReadLine());
 
             while (operacaoSouD == 's')
-            {
-
+            
                 {
 
                     Console.WriteLine("Qual o nome do titular?");
@@ -73,7 +72,7 @@ namespace Laboratorio6
 
                         foreach (var item in listConta)
                         {
-                            if (item.Id == nomeDoTitular)
+                            if (item.Titular == nomeDoTitular)
                             {
                                 item.Sacar(valsaque);
                             }
@@ -86,7 +85,7 @@ namespace Laboratorio6
 
                         foreach (var item in listConta)
                         {
-                            if (item.Id == nomeDoTitular)
+                            if (item.Titular == nomeDoTitular)
                             {
                                 item.Depositar(valdeposito);
                             }
@@ -97,7 +96,7 @@ namespace Laboratorio6
                     operacaoSouD = char.Parse(Console.ReadLine());
                 }
 
-            }
+            
 
             foreach (Conta item in listConta)
             {
@@ -110,6 +109,19 @@ namespace Laboratorio6
             {
                 Console.WriteLine("Nome do Titular :   " + item.Id + " ;     Saldo da Conta: " + item.Saldo);
             }
+            Conta[] arrayConta = new Conta[4];
+
+            DateTime hoje = DateTime.Now;
+            arrayConta[0] = new ContaPoupanca(1000, hoje, "Rafa", 2);
+            arrayConta[1] = new ContaPoupanca(1, hoje, "Rafa", 100);
+            arrayConta[2] = new ContaCorrente("Rafa", 100);
+            arrayConta[3].Sacar(100);
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine(arrayConta[i].Id);
+                Console.WriteLine(arrayConta[i].Saldo);
+            }
 
         }
 
@@ -118,21 +130,6 @@ namespace Laboratorio6
         2.Crie uma coleção de objetos do tipo Conta e acrescente diversos objetos dos tipos das classes
         derivadas.Quais métodos podem ser chamados sobre os elementos da coleção?*/
 
-
-
-        Conta[] arrayConta = new Conta[3];
-
-        DateTime hoje = DateTime.Now;
-        arrayConta[0] = new ContaPoupanca(1000, hoje, "Rafa");
-        arrayConta[1] = new ContaPoupanca(1.5, hoje, "Rafa", decimal 100);
-        arrayConta[2] = new ContaCorrente("Rafa", 100);
-        arrayConta[3].sacar();
-        
-        for (int i = 0; i< 2; i++) 
-         { 
-         Console.WriteLine(arrayConta[i].id); 
-         Console.WriteLine(arrayConta[i].saldo); 
-          }
 
 
 
