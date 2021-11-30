@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = DemoLinq
-build_property.ProjectDir = C:\Users\rafae\Documents\TRILHA EVERIS\TRILHA C#\TRILHA DEV C\DemoLinq\DemoLinq\
+build_property.ProjectDir = C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\

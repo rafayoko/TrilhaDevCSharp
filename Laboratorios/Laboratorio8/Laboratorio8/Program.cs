@@ -44,7 +44,7 @@ namespace Laboratorio8
             //Você conseguiria criar uma classe Pessoa que permitisse ordenar ora por nome, 
             //ora pela idade, utilizando a interface IComparable?
             
-            Pessoa2[] lista3 = { new Pessoa2("Jose", 25), new Pessoa2("Ana", 28), new Pessoa2("Paulo", 20) };
+            Pessoa2[] lista3 = { new Pessoa2("Jose", 25, resp), new Pessoa2("Ana", 28, resp), new Pessoa2("Paulo", 20, resp) };
             
             Console.WriteLine("Você quer ordenar por Nome ou por Idade? (1/2)");
             
@@ -57,10 +57,7 @@ namespace Laboratorio8
             Array.Sort(lista3);
             for (int i = 0; i < lista2.Length; i++)
             {
-
                 Console.Write(lista3[i].Nome + " ");
-               
-
             }
 
             /*   3.Existe outra interface que poderia ser utilizada para resolver a questão da ordenação? Qual? Mostre como
@@ -70,15 +67,13 @@ namespace Laboratorio8
 
             Pessoa3[] lista4 = { new Pessoa3("Jose", 25), new Pessoa3("Ana", 28), new Pessoa3("Paulo", 20) };
         
-
-
-            Array.Sort(lista4);
+            Array.Sort();
             //lista4.Sort(new Pessoa3());
             // Array[].Sort(new Pessoa3());
             for (int i = 0; i < lista4.Length; i++)
             {
 
-                Console.Write(lista3[i].Nome + " ");
+                Console.Write(lista4[i].Nome + " ");
 
 
             }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafae\\Documents\\TRILHA EVERIS\\TRILHA C#\\TRILHA DEV C\\DemoLinq\\DemoLinq\\DemoLinq.csproj",
+      "projectUniqueName": "C:\\Users\\rafae\\Documents\\TRILHA EVERIS\\LaboratoriosTrilhasC#\\TrilhaDevCSharp\\Laboratorios\\DemoLinq\\DemoLinq\\DemoLinq.csproj",
       "projectName": "DemoLinq",
-      "projectPath": "C:\\Users\\rafae\\Documents\\TRILHA EVERIS\\TRILHA C#\\TRILHA DEV C\\DemoLinq\\DemoLinq\\DemoLinq.csproj",
+      "projectPath": "C:\\Users\\rafae\\Documents\\TRILHA EVERIS\\LaboratoriosTrilhasC#\\TrilhaDevCSharp\\Laboratorios\\DemoLinq\\DemoLinq\\DemoLinq.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafae\\Documents\\TRILHA EVERIS\\TRILHA C#\\TRILHA DEV C\\DemoLinq\\DemoLinq\\obj\\",
+      "outputPath": "C:\\Users\\rafae\\Documents\\TRILHA EVERIS\\LaboratoriosTrilhasC#\\TrilhaDevCSharp\\Laboratorios\\DemoLinq\\DemoLinq\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

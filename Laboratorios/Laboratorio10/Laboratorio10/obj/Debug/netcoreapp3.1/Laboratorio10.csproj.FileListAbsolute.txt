@@ -1,0 +1,14 @@
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.csproj.AssemblyReference.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.AssemblyInfo.cs
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\bin\Debug\netcoreapp3.1\Laboratorio10.exe
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\bin\Debug\netcoreapp3.1\Laboratorio10.deps.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\bin\Debug\netcoreapp3.1\Laboratorio10.runtimeconfig.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\bin\Debug\netcoreapp3.1\Laboratorio10.runtimeconfig.dev.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\bin\Debug\netcoreapp3.1\Laboratorio10.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\bin\Debug\netcoreapp3.1\Laboratorio10.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\Laboratorio10\Laboratorio10\obj\Debug\netcoreapp3.1\Laboratorio10.genruntimeconfig.cache

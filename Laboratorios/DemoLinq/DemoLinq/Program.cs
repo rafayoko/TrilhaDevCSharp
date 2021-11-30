@@ -110,45 +110,58 @@ namespace DemoLinq
 
          resultado10.ForEach(x => Console.WriteLine(x));
 
-         Console.ReadLine();
+         Console.WriteLine("--------------------------------");
 
             /*3. Construa uma consulta que retorne as pessoas agrupadas pelo mês de nascimento e apresente-as em ordem crescente 
                 de mês. Em um mesmo mês as pessoas devem ser listadas em ordem crescente de data de nascimento. Apresente o 
             número de pessoas que fazem aniversário em cada um dos meses. Execute e teste.
             */
+            Console.WriteLine("Pessoas agrupadas pelo mês de nascimento e apresenta-las em ordem crescente: ");
+
+
+            var resultado19 = (from p in pessoas
+                               orderby p.DataNascimento.Month
+                               select p).ToList();
+                     
+
+            resultado19.ForEach(x => Console.WriteLine(x));
 
 
 
-            Console.ReadLine();
             /*
         4. Construa uma consulta que retorne a pessoa mais velha. Execute e teste.*/
             Console.WriteLine("\nPessoa mais velha");
-            var resultado12 = pessoas.Max(p => p.DataNascimento);
-            //Console.WriteLine("Consulta 9:");
-            //Console.WriteLine(resultado9);
-
+            var resultado12 = pessoas.Min(p => p.DataNascimento);
             var resultado13 = (from p in pessoas
                                where p.DataNascimento == resultado12
                                select p.Nome).ToList();
 
             resultado13.ForEach(x => Console.WriteLine(x));
 
-            Console.ReadLine();
-
+            Console.WriteLine("--------------------------------");
             /* 5. Construa uma consulta que retorne a pessoa solteira mais nova. Execute e teste.*/
+            Console.WriteLine("\nPessoa solteira mais nova: ");
+
             var resultado14 = (from p in pessoas
-                               where !p.Casada
-                               select pessoas.Min(p => p.DataNascimento));
+                              where !p.Casada
+                              select p).ToList();
 
-            resultado14.ForEach(x => Console.WriteLine(x));
+            var resultado15 =  resultado14.Max(p => p.DataNascimento);
+      
+            var resultado16 = (from p in pessoas
+                               where !p.Casada && p.DataNascimento == resultado15
+                               select p.Nome).ToList(); 
+            resultado16.ForEach(x => Console.WriteLine(x));
 
-            Console.ReadLine();
+            Console.WriteLine("--------------------------------");
 
 
             /*6. Construa uma consulta que retorne a idade média das pessoas, em anos. Execute e teste
             */
 
-            double resultado15 = pessoas.Average(c => c.DataNascimento.AddYears);
+            var resultado17 = pessoas.Average(c => c.DataNascimento.Year);
+            var resultado18 = Convert.ToInt32(resultado17);
+            Console.WriteLine(resultado18);
 
 
 

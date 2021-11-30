@@ -30,3 +30,19 @@ C:\Users\rafae\Documents\TRILHA EVERIS\TRILHA C#\TRILHA DEV C\DemoLinq\DemoLinq\
 C:\Users\rafae\Documents\TRILHA EVERIS\TRILHA C#\TRILHA DEV C\DemoLinq\DemoLinq\obj\Debug\net5.0\ref\DemoLinq.dll
 C:\Users\rafae\Documents\TRILHA EVERIS\TRILHA C#\TRILHA DEV C\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.pdb
 C:\Users\rafae\Documents\TRILHA EVERIS\TRILHA C#\TRILHA DEV C\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.genruntimeconfig.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.csproj.AssemblyReference.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.AssemblyInfo.cs
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\ref\DemoLinq.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\bin\Debug\net5.0\DemoLinq.exe
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\bin\Debug\net5.0\DemoLinq.deps.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\bin\Debug\net5.0\DemoLinq.runtimeconfig.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\bin\Debug\net5.0\DemoLinq.runtimeconfig.dev.json
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\bin\Debug\net5.0\DemoLinq.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\bin\Debug\net5.0\ref\DemoLinq.dll
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\bin\Debug\net5.0\DemoLinq.pdb
+C:\Users\rafae\Documents\TRILHA EVERIS\LaboratoriosTrilhasC#\TrilhaDevCSharp\Laboratorios\DemoLinq\DemoLinq\obj\Debug\net5.0\DemoLinq.genruntimeconfig.cache

@@ -13,10 +13,11 @@ namespace Laboratorio8
 
         public Pessoa2(){
             }
-        public Pessoa2(string n, int t)
+        public Pessoa2(string n, int t, int resp)
         {
             nome = n;
             idade = t;
+            resposta = resp;
 
         }
 

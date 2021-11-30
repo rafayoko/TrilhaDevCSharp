@@ -56,30 +56,44 @@ namespace Laboratorio9
 
             /*2. Dada uma lista de números reais, implemente um método TotalAcimaMedia, para calcular e retornar o 
              número de elementos da lista cujos valores são maiores do que a média de todos os elementos.  */
-            List<int> list = new List<int>();
-            int[] numeros = new int[] { 1, 2, 3, 4, 5 };
-            list.AddRange(numeros);
+            List<int> list2 = new List<int>();
+            int[] numeros2 = new int[] { 1, 2, 3, 4, 5, 0 };
+            list2.AddRange(numeros2);
+            Metodos met = new Metodos();
+            met.TotalAcimaMedia(list2);
 
+            Console.WriteLine(met.contador);
 
+            Console.WriteLine("-----------------------------");
 
             /*3. Você consegue imaginar uma forma de retornar uma nova lista com esses valores, ao invés de apenas 
            retornar o número de elementos? Crie o método ListaAcimaMedia.*/
-
-            List<int> list2 = new List<int>();
-            int[] numeros2 = new int[] { 1, 2, 3, 4, 5 };
-            list.AddRange(numeros2);
-
-            int somar = list2.Sum();
-            decimal media = somar / numeros2.Length;
-            foreach (int obj in list2)
+            met.ListaAcimaMedia(list2);
+            for (int i=0; i < list2.Count; i++)
             {
-                if (obj > media)
-                {
-                    Console.WriteLine(obj);
-                }
+                Console.WriteLine(value: Metodos.lista3);
+
             }
 
+           
+            
+           /* static decimal ListaAcimaMedia()
+            {
+
+                int somar = list2.Sum();
+                decimal media = somar / numeros2.Length;
+                foreach (int obj in list2)
+                {
+                    if (obj > media)
+                    {
+                        Console.WriteLine(obj);
+                    }
+                }
+            } */
+           // 18h56
+
         }
-     
+
+
     }
 }
