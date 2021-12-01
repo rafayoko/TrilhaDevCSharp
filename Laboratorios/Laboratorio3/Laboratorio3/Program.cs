@@ -111,8 +111,6 @@ namespace Laboratorio3
                 Console.Write(" " + array4[x] + " ");
 
 
-
-
             }
 
             Console.WriteLine();
@@ -154,7 +152,7 @@ namespace Laboratorio3
                 Console.WriteLine("Coluna " + (v+1)  + ": " + vet[v]);
             }
 
-            Console.WriteLine();
+           
 
 
 
@@ -167,16 +165,13 @@ namespace Laboratorio3
 
             for (int w = 0; w >jArray.Length; w++)
             {
-                for (int l = 0; l > jArray[w].Length; l++)
+                for (int l = 0; l > jArray[l].Length; l++)
                 {
                     Console.Write(" " + jArray[w][l] + " ");
                 }
             }
 
             Console.WriteLine();
-
-
-
 
 
             // Esse aqui com os números aleatórios não está rodando.

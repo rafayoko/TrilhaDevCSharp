@@ -69,9 +69,13 @@ namespace Laboratorio9
             /*3. Você consegue imaginar uma forma de retornar uma nova lista com esses valores, ao invés de apenas 
            retornar o número de elementos? Crie o método ListaAcimaMedia.*/
             met.ListaAcimaMedia(list2);
+
             for (int i=0; i < list2.Count; i++)
             {
+                Console.WriteLine(value: Metodos.ListaAcimaMedia);
                 Console.WriteLine(value: Metodos.lista3);
+                Console.WriteLine(met.ListaAcimaMedia);
+                
 
             }
 
@@ -90,7 +94,7 @@ namespace Laboratorio9
                     }
                 }
             } */
-           // 18h56
+           // 18
 
         }
 

@@ -13,7 +13,8 @@ namespace Laboratorio8
             {
                 Console.Write(lista[i] + " ");
             }
-            Console.WriteLine("------------------");
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine();
 
 
             Array.Sort(lista);
@@ -23,8 +24,7 @@ namespace Laboratorio8
                 Console.Write(lista[i] + " ");
             }
 
-            Console.WriteLine("------------------------------------");
-
+            Console.WriteLine("---------------------------------------------------");
             Console.WriteLine();
 
 
@@ -38,19 +38,27 @@ namespace Laboratorio8
                 Console.Write(lista2[i].Nome + " ");
                
             }
-
-            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine();
 
             //Você conseguiria criar uma classe Pessoa que permitisse ordenar ora por nome, 
             //ora pela idade, utilizando a interface IComparable?
-            
+
             Pessoa2[] lista3 = { new Pessoa2("Jose", 25), new Pessoa2("Ana", 28), new Pessoa2("Paulo", 20) };
             
             Console.WriteLine("Você quer ordenar por Nome ou por Idade? (1/2)");
             
-                int resp = int.Parse(Console.ReadLine());
+            int resp = int.Parse(Console.ReadLine());
 
             Pessoa2 p = new Pessoa2(resp);
+
+
+            foreach ( var item in lista3)
+            {
+                item.resposta = resp;
+            }
+
+
 
            // p.Resposta = resp;
           
@@ -60,26 +68,26 @@ namespace Laboratorio8
                 Console.Write(lista3[i].Nome + " ");
             }
 
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine();
             /*   3.Existe outra interface que poderia ser utilizada para resolver a questão da ordenação? Qual? Mostre como
-     ficaria a solução. */
+            ficaria a solução. */
 
             //Sim, existe o IComparare
-
-            Pessoa3[] lista4 = { new Pessoa3("Jose", 25), new Pessoa3("Ana", 28), new Pessoa3("Paulo", 20) };
-        
-            Array.Sort();
-            //lista4.Sort(new Pessoa3());
+            Console.WriteLine(".Outra interface que poderia ser utilizada para a solução: ");
+         
+            //  Pessoa3[] lista4 = { new Pessoa3("Jose", 25), new Pessoa3("Ana", 28), new Pessoa3("Paulo", 20) };
+            List<Pessoa3> lista4 = new List<Pessoa3>();
+            lista4.Add(new Pessoa3("José", 25));
+            lista4.Add(new Pessoa3("Ana", 28));
+            lista4.Add(new Pessoa3("Paulo", 20));
+            //Array.Sort();
+            lista4.Sort(new Pessoa3());
             // Array[].Sort(new Pessoa3());
-            for (int i = 0; i < lista4.Length; i++)
+            for (int i = 0; i < lista4.Count; i++)
             {
-
                 Console.Write(lista4[i].Nome + " ");
-
-
             }
-
         }
-
-
     }
 }
