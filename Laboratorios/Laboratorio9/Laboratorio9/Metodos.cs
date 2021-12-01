@@ -9,8 +9,8 @@ namespace Laboratorio9
     {
 
         public int contador;
-       
-        List<int> lista3 = new List<int>();
+        public List<int> lista3 { get; set; }
+             
         public int TotalAcimaMedia(List<int> list2 )
         {
 
@@ -29,23 +29,17 @@ namespace Laboratorio9
 
         public List<int> ListaAcimaMedia(List <int> list2)
         {
+            lista3 = new List<int>();
             int somar = list2.Sum();
             decimal media = somar / list2.Count;
             
             foreach (int obj2 in list2)
-            {
-                contador = 0;
-                
+            {    
                 if (obj2 > media)
                 {
-                 
-                    for(int i = 0; i < contador; i++)
-                    {
                         lista3.Add(obj2);
-                    }
                 }  
-            }
-           
+            }        
             return lista3;
         }
     }

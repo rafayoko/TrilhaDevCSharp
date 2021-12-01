@@ -70,13 +70,9 @@ namespace Laboratorio9
            retornar o número de elementos? Crie o método ListaAcimaMedia.*/
             met.ListaAcimaMedia(list2);
 
-            for (int i=0; i < list2.Count; i++)
-            {
-                Console.WriteLine(value: Metodos.ListaAcimaMedia);
-                Console.WriteLine(value: Metodos.lista3);
-                Console.WriteLine(met.ListaAcimaMedia);
-                
-
+            for (int i=0; i < met.lista3.Count; i++)
+            {             
+                Console.WriteLine(met.lista3[i]);
             }
 
            
