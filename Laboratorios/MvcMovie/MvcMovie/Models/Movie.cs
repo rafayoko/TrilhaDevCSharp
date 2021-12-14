@@ -33,14 +33,18 @@ namespace MvcMovie.Models
 
         public DateTime ReleaseDate { get; set; }
 
-
         //Apresentar faturamento (Goss) em formato monetário, com separador de milhar.
-        [DisplayFormat(DataFormatString = "{0:C0}", ApplyFormatInEditMode = true)]
+   //     [DisplayFormat(DataFormatString = "{0:C0}", ApplyFormatInEditMode = true)]
+        [DataType(DataType.Currency)]
+        [Display(Name = "Price")]
         public float Gross { get; set; }
 
+
         [DisplayFormat(DataFormatString = "{0:F}", ApplyFormatInEditMode = true)]
-        [Range(0.0, 10.0)]
-        public float Rating { get; set; }
+
+        [Range(typeof(double), "0.0", "10.0")]
+
+        public double Rating { get; set; }
         public int GenreID { get; set; }
         public virtual Genre Genre { get; set; }
     }

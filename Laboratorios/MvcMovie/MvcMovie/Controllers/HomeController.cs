@@ -26,5 +26,37 @@ namespace MvcMovie.Controllers
 
             return View();
         }
+
+
+        public void Agente()
+        {
+            string agent = Request.Browser.Browser;
+            string useragent = Request.UserAgent;
+            string source = Request.UserHostAddress;
+            Response.Write("<H1>Hello MVC!</H1>");
+            Response.Write("<h2>Welcome, you are using ");
+            Response.Write(agent);
+            Response.Write(" and your address is ");
+            Response.Write(source);
+            Response.Write("! </h2>");
+            Response.Write("<h2>User agent: ");
+            Response.Write(useragent + "</h2>");
+        }
+
+        public void HelloName(string name)
+        {
+            string value = HttpUtility.HtmlEncode(name);
+            Response.Write("<H1>Hello ");
+            Response.Write(value);
+            Response.Write("!</H1>");
+        }
+        public void HelloId(string id)
+        {
+            string value = HttpUtility.HtmlEncode(id);
+            Response.Write("<H1>Hello ");
+            Response.Write(value);
+            Response.Write("!</H1>");
+        }
+
     }
 }

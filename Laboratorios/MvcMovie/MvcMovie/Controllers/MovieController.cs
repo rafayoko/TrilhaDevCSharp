@@ -128,5 +128,31 @@ namespace MvcMovie.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult Catalogo(string titulo)
+        {
+            string filePath = Server.MapPath("~/Content/Catalogo/") + titulo.ToLower() + ".pdf";
+            if (System.IO.File.Exists(filePath))
+                return new FilePathResult(filePath, "application/pdf");
+            else
+                return HttpNotFound();
+        }
+
+        public JsonResult Filmes()
+        {
+
+            var model = from movie in db.Movies
+                        select new
+                        {
+                            Titulo = movie.Title,
+                            Diretor = movie.Director,
+                            Ano = movie.ReleaseDate.Year,
+                            Genero = movie.Genre.Name
+                        };
+            return Json(model.OrderBy(m => m.Ano), JsonRequestBehavior.AllowGet);
+        }
+
+
     }
 }
+    
