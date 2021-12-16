@@ -15,10 +15,33 @@ namespace MvcMovie.Controllers
         private MovieDBContext db = new MovieDBContext();
 
         // GET: Movie
-        public ActionResult Index()
+
+        public ViewResult Index(string searchString, int? SelectedGenre, string sortOrder)
         {
-            var movies = db.Movies.Include(m => m.Genre);
-            return View(movies.ToList());
+            var genres = db.Genres.OrderBy(g => g.Name).ToList();
+            ViewBag.SelectedGenre = new SelectList(genres, "GenreID", "Name", SelectedGenre);
+            int genreID = SelectedGenre.GetValueOrDefault();
+
+            var movies = db.Movies
+                .Where(c => !SelectedGenre.HasValue || c.GenreID == genreID);
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString) || s.Director.Contains(searchString));
+            }
+
+            ViewBag.RatingSortParm = sortOrder == "Rating" ? "rating_asc" : "Rating";
+
+            switch (sortOrder)
+            {
+                case "Rating":
+                    movies = movies.OrderByDescending(s => s.Rating);
+                    break;
+                case "rating_asc":
+                    movies = movies.OrderBy(s => s.Rating);
+            }
+            return View(movies);
+
         }
 
         // GET: Movie/Details/5
