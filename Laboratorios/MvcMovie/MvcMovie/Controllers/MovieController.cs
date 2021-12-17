@@ -12,7 +12,7 @@ namespace MvcMovie.Controllers
 {
     public class MovieController : Controller
     {
-        private MovieDBContext db = new MovieDBContext();
+        private MovieDBContext  db = new MovieDBContext();
 
         // GET: Movie
 
@@ -39,9 +39,11 @@ namespace MvcMovie.Controllers
                     break;
                 case "rating_asc":
                     movies = movies.OrderBy(s => s.Rating);
+
             }
             return View(movies);
 
+      
         }
 
         // GET: Movie/Details/5
